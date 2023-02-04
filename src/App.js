@@ -39,14 +39,6 @@ function App() {
   return (
     <div className="App">
     
-      {/* <Login /> */}
-     {/* <Register /> */}
-     {/* <Splash /> */}
-      {/* <Homepage /> */}
-
-
-      
-
       <RouterProvider router={router} />
 
       
