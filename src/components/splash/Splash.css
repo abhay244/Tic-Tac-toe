@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height:100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+}
+.splash{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    
+}
+.splash .top{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.splash .bottom{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.splash .bottom .login{
+    width: 95%;
+    height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 0px;
+}
+.splash .bottom .register{
+    width: 95%;
+    height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 0px;
+}
